@@ -1,0 +1,73 @@
+body{
+	text-align: center;
+	background-image: linear-gradient(white, skyblue, blue);
+	background-repeat: no-repeat;
+}
+#container{
+	width: 70%;
+	text-align: center;
+	display: inline-block;
+	margin: 0px auto;
+	padding: auto;
+}
+#angel{
+	visibility: hidden;
+}
+#chances_div{
+	height: 85px; 
+	background-repeat: no-repeat;
+	background-image: url("/images/cloud.png");
+	background-position: center;
+	background-size: 200px 80px;
+	
+}
+#chances_p{
+	text-align: center;
+	padding-top: 35px;
+	margin: auto;
+}
+#guess_div{
+	width: 75%;
+	text-align: center;
+	margin: 0px auto;
+}
+#hint{
+	visibility: hidden;
+	font-size: large;
+}
+#alphabet{
+	margin-top: 10px;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+}
+.ans, .punct{
+	width: 10px;
+	float: none;
+	margin-bottom: 0px;
+	margin-right: 5px;
+}
+.letters{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: x-large;
+	background-color: silver;
+	color: blue;
+	border-radius: 25%;
+}
+
+/*Tweak the sizes for smaller devices*/
+@media screen and (max-width: 768px) {
+	#alphabet{
+		width: 90%;
+	}
+	.letters{
+		font-size: larger;
+		padding: 5px;
+	}
+	#hint{
+		margin: auto;
+	}
+}
