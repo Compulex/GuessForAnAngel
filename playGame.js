@@ -4,6 +4,7 @@
 var angel = document.getElementById("angel");
 var caption = document.getElementById("caption");
 var chances = document.getElementById("chances"); 
+var cp = document.getElementById("chances_p");
 var guess = document.getElementById("guess");
 var hint = document.getElementById("hint");
 var alphabet_div = document.getElementById("alphabet");
@@ -103,6 +104,7 @@ function guessing(btn){
 
     //disable button when done
     btn.disabled = true;
+    btn.style.backgroundColor = "brown";
     btn.style.color = "black";
     
     howFarAreWe(true);
@@ -142,18 +144,14 @@ function howFarAreWe(buttonClicked){
 
             //done waits three seconds 
             setTimeout(function(){
-                var button = document.createElement("button");
-                button.setAttribute("id", "new_game");
-                if(win){
-                    button.innerHTML = "Awesome, play another";
-                }
-                else{
-                    button.innerHTML = "How about another one";
-                }
-
-                button.onclick = function(){ location.reload() };
-                document.body.appendChild(button);
-            }, 3000);
+                var btn = document.createElement("button");
+                btn.innerHTML = "Play another one";
+                btn.style.borderRadius = "25px";
+                cp.innerHTML = "";
+                cp.appendChild(btn);
+                btn.onclick = function(){ location.reload(); }
+                cp.style.cursor = "pointer";
+            }, 5000);
             
         }
         //console.log("Shown: " + shown + "  Percentage: " + percentage);

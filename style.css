@@ -59,13 +59,31 @@ body{
 }
 
 /*Tweak the sizes for smaller devices*/
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
 	#alphabet{
 		width: 90%;
 	}
 	.letters{
 		font-size: larger;
 		padding: 5px;
+	}
+	#hint{
+		margin: auto;
+	}
+}
+
+@media screen and (max-device-width: 425px){
+	#container{
+		width: 80%;
+	}
+	#alphabet{
+		width: 100%;
+	}
+	.letters{
+		font-size: large;
+		padding: 5px;
+		margin-right: 5px;
+		margin-bottom: 5px;
 	}
 	#hint{
 		margin: auto;
