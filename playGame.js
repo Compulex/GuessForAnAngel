@@ -13,23 +13,55 @@ var alphabet_arr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
 var answer = null;
 var letters_cnt = 0;
 var win = true;
+var arr = [];
+var randarr = [];
 
 //get answers from json file 
 let xhr = new XMLHttpRequest(), url = "answers.json";
 xhr.onreadystatechange = function(){
     if(xhr.readyState === 4 && xhr.status === 200){
-        let arr = JSON.parse(xhr.responseText);
-        getAnswer(arr);
+        arr = JSON.parse(xhr.responseText);
+
+        if(sessionStorage.getItem("sarr") == null){
+            for(let i = 0; i < arr.length; i++){
+                randarr.push(i);
+            }
+            shuffleArray(randarr);
+
+            //save shuffled array in storage
+            sessionStorage.setItem("sarr", randarr);
+            sessionStorage.setItem("idx", 0);
+        }
+        else{
+            let sarr = sessionStorage.getItem("sarr");
+            randarr = sarr.split(",");
+        }
+
+        getAnswer();
     }
 };
 xhr.open("GET", url, true);
 xhr.send();
 
-function getAnswer(arr){
-    var idx = Math.floor(Math.random() * arr.length);
+function shuffleArray(sharr){
+    //shuffle indices in array
+    for(let i = sharr.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * i);
+        const temp = sharr[i];
+        sharr[i] = sharr[j];
+        sharr[j] = temp;
+    }
+}//shuffleArray
+
+function getAnswer(){
+    //get index from the session to avoid repetition
+    var num = sessionStorage.getItem("idx");
+    console.log(num);
+    var idx = randarr[parseInt(num)];
     answer = arr[idx].answer;
     hint.innerHTML = "Hint: " + arr[idx].hint;
     setUp();
+    
 }//getAnswer
 
 function setUp(){
@@ -65,7 +97,6 @@ function setUp(){
 
     howFarAreWe(false);
 }//setUp
-
 
 function guessing(btn){
     var letter = btn.textContent;
@@ -149,16 +180,20 @@ function howFarAreWe(buttonClicked){
                 btn.style.borderRadius = "25px";
                 cp.innerHTML = "";
                 cp.appendChild(btn);
-                btn.onclick = function(){ location.reload(); }
+                btn.onclick = function(){
+                    let num = sessionStorage.getItem("idx");
+                    let index = parseInt(num) + 1;
+                    
+                    sessionStorage.setItem("idx", index);
+                    location.reload();
+                }
                 cp.style.cursor = "pointer";
-            }, 5000);
+            }, 3000);
             
         }
-        //console.log("Shown: " + shown + "  Percentage: " + percentage);
     }
     else{ //for the first time
         letters_cnt = count;
-        //console.log("Letters: " + letters_cnt);
     }
 
 }//howFarAreWe
