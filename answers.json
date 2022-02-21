@@ -1,122 +1,10 @@
 [
     {
-        "answer": "God bless you",
-        "hint": "When you wish someone well or when someone sneezes"
-    },
-    {
-        "answer": "God is good, all the time. And all the time, God is good",
-        "hint": "describe God and how often"
-    },
-    {
-        "answer": "You reap what you sow",
-        "hint": "Galatians 6:7"
-    },
-    {
-        "answer": "Jesus take the wheel",
-        "hint": "someone else should drive (son of God maybe)"
-    },
-    {
-        "answer": "Let go, let God",
-        "hint": "can't do everything alone"
-    },
-    {
-        "answer": "God has a plan",
-        "hint": "what the most high has"
-    },
-    {
-        "answer": "Patience is a virtue",
-        "hint": "another word for wait"
-    },
-    {
-        "answer": "What goes around comes around",
-        "hint": "karma"
-    },
-    {
-        "answer": "Crawl before you walk",
-        "hint": "one of the best accomplishments of every baby"
-    },
-    {
-        "answer": "Who the cap fit, let them wear it",
-        "hint": "lyrics in Bob Marley's Rastaman Vibration album"
-    },
-    {
-        "answer": "Lying is worse than protecting one's feelings",
-        "hint": "the truth hurts but you rather tell it than..."
-    },
-    {
-        "answer": "All things are possible with God",
-        "hint": "is there anything the most high can't do??"
-    },
-    {
-        "answer": "God is with you wherever you go",
-        "hint": "NKJV Joshua 1:9"
-    },
-    {
-        "answer": "When your best friend is God, you will never be alone",
-        "hint": "what happens when you trust in the most high??"
-    },
-    {
-        "answer": "The Lord is my shepherd; I shall not want",
-        "hint": "NKJV Psalm 23:1"
-    },
-    {
-        "answer": "Practice makes perfect",
-        "hint": "keep trying, you'll get better"
-    },
-    {
-        "answer": "Supercalifragilisticexpialidocious",
-        "hint": "ever seen the movie Mary Poppins??"
-    },
-    {
-        "answer": "Don't be afraid to fail. Be afraid not to try",
-        "hint": "you won't always succeed"
-    },
-    {
-        "answer": "Leave your comfort zone, there is no growth there",
-        "hint": "take risks"
-    },
-    {
-        "answer": "If you get tired, learn to rest, not quit",
-        "hint": "everyone deserves a break"
-    },
-    {
-        "answer": "Don't be eye candy, be soul food",
-        "hint": "it's about looking within"
-    },
-    {
-        "answer": "It's not how much scripture you know. It's how much scripture you live",
-        "hint": "show you know the Holy Word more than talking about it"
-    },
-    {
-        "answer": "Talk about your blessings more than you talk about your problems",
-        "hint": "stop complaining and appreciate the good things"
-    },
-    {
-        "answer": "Everything comes to you in the right moment. Be patient. Be grateful",
-        "hint": "things take time"
-    },
-    {
-        "answer": "Supporting another's success won't ever dampen yours",
-        "hint": "always wish your neighbors well, don't hate"
-    },
-    {
-        "answer": "Don't trust everything you see. Even salt looks like sugar",
-        "hint": "beware of imposters"
-    },
-    {
-        "answer": "What you allow, is what will continue",
-        "hint": "don't let things keep going if you don't like it"
-    },
-    {
         "answer": "'You shall have no other gods before Me'",
         "hint": "NKJV Exodus 20:3"
     },
     {
-        "answer": "'Little children, keep yourselves from idols'",
-        "hint": "NKJV 1 John 5:21"
-    },
-    {
-        "answer": "'You shall not take the name of the Lord your God in vain, for the Lord will not hold him guiltless who takes His name in vain'",
+        "answer": "'You shall not take the name of the Lord your God in vain...'",
         "hint": "NKJV Exodus 20:7"
     },
     {
@@ -148,6 +36,134 @@
         "hint": "NKJV Exodus 20:17"
     },
     {
+        "answer": "'Little children, keep yourselves from idols'",
+        "hint": "NKJV 1 John 5:21"
+    },
+    {
+        "answer": "The Lord is my shepherd; I shall not want",
+        "hint": "NKJV Psalm 23:1"
+    },
+    {
+        "answer": "Depart from evil, and do good; seek peace, and pursue it",
+        "hint": "KJV Psalms 34:14"
+    },
+    {
+        "answer": "Judge not, that you be not judged",
+        "hint": "NJV Matthew 7:1"
+    },
+    {
+        "answer": "'A good tree cannot bear bad fruit, nor can a bad tree bear good fruit.'",
+        "hint": "NKJV Matthew 7:18"
+    },
+    {
+        "answer": "'Not what goes into the mouth defiles a man; but what comes out of the mouth that defiles a man'",
+        "hint": "NKJV Matthew 15:11"
+    },
+    {
+        "answer": "Be not deceived: evil communications corrupt good manners",
+        "hint": "KJV 1 Corinthians 15:33"
+    },
+    {
+        "answer": "For we walk by faith, not by sight",
+        "hint": "KJV 2 Corinthians 5:7"
+    },
+    {
+        "answer": "You reap what you sow",
+        "hint": "NKJV Galatians 6:7"
+    },
+    {
+        "answer": "I can do all things through Christ who strengthens me",
+        "hint": "NKJV Philippians 4:13"
+    },
+    {
+        "answer": "Set your affection on things above, not on things on the earth",
+        "hint": "KJV Colossians 3:2"
+    },
+    {
+        "answer": "Abstain from all appearance of evil",
+        "hint": "KJV 1 Thessalonians 5:22"
+    },
+    {
+        "answer": "God bless you",
+        "hint": "When you wish someone well or when someone sneezes"
+    },
+    {
+        "answer": "God is good, all the time. And all the time, God is good",
+        "hint": "describe God and how often"
+    },
+    {
+        "answer": "Jesus take the wheel",
+        "hint": "someone else should drive (son of God maybe)"
+    },
+    {
+        "answer": "Let go, let God",
+        "hint": "allow the most High to deal with it"
+    },
+    {
+        "answer": "God has a plan",
+        "hint": "what the most High has"
+    },
+    {
+        "answer": "Patience is a virtue",
+        "hint": "another word for wait"
+    },
+    {
+        "answer": "Crawl before you walk",
+        "hint": "one of the best accomplishments of every baby"
+    },
+    {
+        "answer": "Who the cap fit, let them wear it",
+        "hint": "lyrics in Bob Marley's Rastaman Vibration album"
+    },
+    {
+        "answer": "Lying is worse than protecting one's feelings",
+        "hint": "the truth hurts but you rather tell it than..."
+    },
+    {
+        "answer": "All things are possible with God",
+        "hint": "is there anything the most high can't do??"
+    },
+    {
+        "answer": "When your best friend is God, you will never be alone",
+        "hint": "what happens when you trust in the most High"
+    },
+    {
+        "answer": "Practice makes perfect",
+        "hint": "keep trying, you'll get better"
+    },
+    {
+        "answer": "Don't be afraid to fail. Be afraid not to try",
+        "hint": "you won't always succeed"
+    },
+    {
+        "answer": "Leave your comfort zone, there is no growth there",
+        "hint": "take risks"
+    },
+    {
+        "answer": "If you get tired, learn to rest, not quit",
+        "hint": "everyone deserves a break"
+    },
+    {
+        "answer": "Don't be eye candy, be soul food",
+        "hint": "it's about looking within"
+    },
+    {
+        "answer": "It's not how much scripture you know. It's how much scripture you live",
+        "hint": "more showing less talking"
+    },
+    {
+        "answer": "Talk about your blessings more than you talk about your problems",
+        "hint": "stop complaining and appreciate the good things"
+    },
+    {
+        "answer": "Supporting one's success won't ever dampen yours",
+        "hint": "always wish your neighbors well, don't hate"
+    },
+    {
+        "answer": "Don't trust everything you see. Even salt looks like sugar",
+        "hint": "beware of imposters"
+    },
+    {
         "answer": "Make peace with your past so it does not affect the present",
         "hint": "focus on the future"
     },
@@ -160,35 +176,39 @@
         "hint": "don't rush"
     },
     {
-        "answer": "Don't compare your life to others and don't judge them. You have no idea what their journey is all about",
-        "hint": ""
-    },
-    {
-        "answer": "It's alright not to know all the answers. They will come you when you least expect it",
-        "hint": "us humans don't know EVERYthing"
-    },
-    {
         "answer": "You are in charge of your happiness",
         "hint": "your mood is up to you"
-    },
-    {
-        "answer": "Smile. You don't own all the problems in the world",
-        "hint": "things could always be worse"
     },
     {
         "answer": "Failure is not the opposite of success. It is part of success",
         "hint": "you get better when you lose"
     },
     {
-        "answer": "'All great achievements require time'",
-        "hint": "Maya Angelou"
+        "answer": "Be a warrior, not a worrier",
+        "hint": "fight through, not"
     },
     {
-        "answer": "'If you are always trying to be normal you will never know how amazing you can be'",
-        "hint": "Maya Angelou"
+        "answer": "Try to be a rainbow in someone's cloud",
+        "hint": "brighten someone's mood"
     },
     {
-        "answer": "Depart from evil, and do good; seek peace, and pursue it",
-        "hint": "KJV Psalms 34:14"
+        "answer": "There is beauty in simplicity",
+        "hint": "don't complicate things"
+    },
+    {
+        "answer": "Time is everything we have and don't",
+        "hint": "don't underestimate time"
+    },
+    {
+        "answer": "Work for a cause, not for an applause",
+        "hint": "have a purpose"
+    },
+    {
+        "answer": "Live life to express, not to impress",
+        "hint": "live for yourself"
+    },
+    {
+        "answer": "Be kind but not weak",
+        "hint": "don't be a pushover"
     }
 ]
